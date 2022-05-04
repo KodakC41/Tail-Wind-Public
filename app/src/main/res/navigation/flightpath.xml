@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flightpath"
+    app:startDestination="@id/mapsFragment">
+    <fragment
+        android:id="@+id/information2"
+        android:name="com.cbruinsm.tailwindtwo.menu.Information"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" >
+        <action
+            android:id="@+id/action_information2_to_mapsFragment"
+            app:destination="@id/mapsFragment"
+            app:exitAnim="@android:anim/fade_out"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.cbruinsm.tailwindtwo.ui.main.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_information2"
+            app:destination="@id/information2"
+            app:enterAnim="@android:anim/fade_in"
+            app:popUpTo="@id/information2" />
+        <action
+            android:id="@+id/action_mapsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.cbruinsm.tailwindtwo.menu.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment"
+            app:popUpTo="@id/settingsFragment" />
+    </fragment>
+</navigation>

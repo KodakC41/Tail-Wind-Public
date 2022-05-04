@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog"
+        tools:context="com.cbruinsm.tailwindtwo.ui.main.plane.FlightSearch">
+
+    <EditText
+        android:id="@+id/FlightFinder"
+        android:layout_width="363dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/AddF"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Flights"
+        android:layout_width="364dp"
+        android:layout_height="437dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FlightFinder"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/Legal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/Legal2"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Flights" />
+
+    <TextView
+        android:id="@+id/textTop"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Fview"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/Flights"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Par Avion</string>
+    <string name="about">Information</string>
+    <string name="internet">Internet</string>
+    <string name="Fview">Vols</string>
+    <string name="about2">Info</string>
+    <string name="V">Version</string>
+    <string name="Search">Recherche</string>
+    <string name="Go">Go</string>
+    <string name="AddF">Ajouter un vol</string>
+    <string name="Settings">rU+00E9glages</string>
+    <string name="Legal2">DonnU+00E9es de vol fournies par FlightAware AeroAPI</string>
+    <string name="Day_Night">Jour/Noir</string>
+    <string name="flight_Alert">U+00E9chouer</string>
+    <string name="Time">Temps</string>
+    <string name="History">Mon Vols</string>
+    <string name="Path_Points">Chemin/Endroits</string>
+    <string name="flight_Alert2">Succ\U+0080sl</string>
+    <string name="Enable">permettre</string>
+    <string name="Location1">Activer les services de localisation</string>
+    <string name="Location2">Ceci est utile pour certaines fonctionnalités de l\'application</string>
+    <string name="O.K.">D\U+00E9clin</string>
+    <string name="Name">Votre nom</string>
+    <string name="SavedFlight">Plot current location</string>
+    <string name="Unable">Impossible de trouver ce vol</string>
+    <string name="Able">Vol trouv\U+00E9!</string>
+    <string name="Copy">Copyright Christopher Bruinsma, Tail Wind, 2022 tous droits r\U+00E9serv\U+00E9s</string>
+    <string name="Legal">Vent arri\U+0080re ou tout autre
+        les applications affili\U+00E9es ne doivent pas \U+00EAtre utilis\U+00E9es \U+003F la place
+        des directives m\U+00E9t\U+00E9orologiques, GPS ou de tour de contr\U+00F4le approuv\U+00E9es par le gouvernement.
+        De m\U+00EAme, aucune information de cette application ne doit \U+00EAtre utilis\U+00E9e à la place de la compagnie a\U+00E9rienne officielle
+        directif. IL EST DE VOTRE RESPONSABILIT\U+00E9 D\'ARRIVER \U+003F VOTRE A\U+00E9ROPORT \U+003F L\'HEURE.</string>
+    <string name="Please">Veuillez s\U+00E9lectionner ci-dessous</string>
+    <string name="Are_you_sure">Voulez-vous vraiment supprimer ce vol? (Toutes les donn\U+00E9es seront perdues)</string>
+    <string name="Confirm">Supprimer</string>
+    <string name="No">Annuler</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Add_comment">Point d\'int\U+00E9r\U+00CAt</string>
+    <string name="Add_Point">Ajoutez</string>
+    <string name="Enter_Comment_below">Entrez votre commentaire ci-dessous</string>
+</resources>

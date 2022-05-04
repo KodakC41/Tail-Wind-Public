@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Cites : https://www.binghamton.edu/centers/lgbtq/pronoun_s.html-->
+<resources>
+    <array name="Pronouns">
+        <item>Turbulance</item>
+        <item>Weather</item>
+        <item>View</item>
+        <item>Aircraft Sounds</item>
+        <item>Flight Action</item>
+        <item>Aircraft Movement</item>
+    </array>
+</resources>

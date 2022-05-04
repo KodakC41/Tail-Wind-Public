@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Info"
+        android:title="@string/about2"
+        android:visible="true" />
+    <item
+        android:id="@+id/Settings_Nav"
+        android:title="@string/Settings" />
+</menu>

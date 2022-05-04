@@ -1,0 +1,5 @@
+<resources>
+    <style name="black_round" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
+        <item name="shapeAppearance">@style/DialogCorners</item>
+    </style>
+</resources>

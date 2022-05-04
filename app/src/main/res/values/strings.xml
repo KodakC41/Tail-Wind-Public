@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tail Wind</string>
+    <string name="about">Information</string>
+    <string name="about2">Info</string>
+    <string name="V">Version</string>
+    <string name="Search">Search</string>
+    <string name="Fview">Flights</string>
+    <string name="AddF">Add Flight</string>
+    <string name="internet">Internet</string>
+    <string name="Settings">Settings</string>
+    <string name="Legal2">Flight Data Provided by FlightAware AeroAPI</string>
+    <string name="Day_Night">Day/Night</string>
+    <string name="flight_Alert">Unsuccessful</string>
+    <string name="Time">Time</string>
+    <string name="Path_Points">Path/Points</string>
+    <string name="History">My Flights</string>
+    <string name="flight_Alert2">Successful</string>
+    <string name="Unable">Unable to find flight track</string>
+    <string name="Able">Flight track found!</string>
+    <string name="Enable">Enable</string>
+    <string name="Location1">Enable Location Services</string>
+    <string name="Location2">This is helpful for some app functionality</string>
+    <string name="O.K.">Decline</string>
+    <string name="Name">Your Name</string>
+    <string name="SavedFlight">Plot current location</string>
+    <string name="Go">Go</string>
+    <string name="Copy">Copyright Christopher Bruinsma, Tail Wind 2022 all rights reserved</string>
+    <string name="Legal">Tail Wind or any affiliated applications should not be used in place of governmental approved Meteorological, GPS, or Control Tower Directives.
+        Likewise, no information in this application should be used in place official airline
+        posted times. IT IS YOUR RESPONSIBILITY TO ARRIVE TO YOUR AIRPORT ON TIME.
+    </string>
+    <string name="Please">Please select below</string>
+    <string name="Are_you_sure">Are you sure you would like to remove this flight? (All data will be lost)</string>
+    <string name="Confirm">Delete</string>
+    <string name="No">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Add_comment">Point of Interest</string>
+    <string name="Add_Point">Add</string>
+    <string name="Enter_Comment_below">Enter your comment below</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

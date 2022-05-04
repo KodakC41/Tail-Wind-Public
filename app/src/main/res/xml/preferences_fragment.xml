@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="third_pref"
+        android:title="@string/SavedFlight" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="day_night"
+        android:title="@string/Day_Night" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="flight_path"
+        android:title="@string/Path_Points" />
+</PreferenceScreen>
